@@ -1,0 +1,140 @@
+.container{
+    background-image: radial-gradient(#87cefa, #595959);
+    background-size: cover;
+    padding: 15px;
+    padding-top: 35px;
+    margin: 0px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-content{
+    margin-left: 15px;
+}
+
+.title{
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+}
+
+.sub-title{
+    font-family:'Courier New', Courier, monospace;
+    color: white;   
+}
+
+.custom-word{
+    color: #800080;
+}
+
+.button{
+    height: 40px;
+    width: 150px;
+    color: white;
+    font-size: 18px;
+    background-color: #000066;
+    border-width: 0px;
+    border-radius: 10px;
+    font-family: "Roboto";
+}
+
+
+
+.chart-container {
+    width: 50%; /* Adjust width as needed */
+    margin: auto; /* Center the chart */
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 0px;
+    margin-top: 25px;
+    padding: 10px;
+}
+  
+.chart {
+    width: 100%;
+    height: auto;
+}
+
+.graph-heading{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sub-heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.horizontal-line{
+    border-top: 2px solid #527a7a;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.custom-button {
+    height: 30px;
+    width: 55px;
+    background-color: #3366cc;
+    border-width: 0px;
+    border-radius: 4px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cryptocurrency-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-top: 15px;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .card h2 {
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    margin: 0;
+  }
+  
+
+.bitcoin{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.image-card{
+    display: flex;
+    flex-direction: row;
+}
+
+.custom-currency{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.custom-price{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.crypto-heading{
+    color: white;
+}
