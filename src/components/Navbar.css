@@ -18,6 +18,7 @@ main{
     background-size: cover;
     color: white;
     width:  300px;
+    height: 100vh;
 }
 
 .top-section{
